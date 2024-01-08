@@ -25,7 +25,7 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
 
 ## How to Contribute 🤝
 
-1. Fork the repository.
+1. Pull the repository.
 2. Add your documentation under the appropriate category.
 3. Submit a pull request.
 
