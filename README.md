@@ -18,6 +18,7 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
     - [NextJS](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/NextJS)
     - [React](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/React)
     - [States](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/States)
+    - [Svelte](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/Svelte)
 
 - **[Français](#français)**
   - [Quarkus](https://github.com/cool-guys-Inc/documentation/tree/main/Français/Quarkus)
