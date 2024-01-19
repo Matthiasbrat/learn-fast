@@ -6,23 +6,23 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
 
 - **[English](#english)**
   - [Authentication](#authentication)
-    - [Auth0](https://github.com/cool-guys-Inc/documentation/tree/main/English/Authentication/Auth0)
-    - [IAM (Identity and Access Management)](https://github.com/cool-guys-Inc/documentation/tree/main/English/Authentication/IAM-Identity-and-access-management)
-  - [Git](https://github.com/cool-guys-Inc/documentation/tree/main/English/Git)
-  - [Javascript](https://github.com/cool-guys-Inc/documentation/tree/main/English/Javascript)
-    - [AngularJS](https://github.com/cool-guys-Inc/documentation/tree/main/English/Javascript/AngularJS)
-  - [OpenText](https://github.com/cool-guys-Inc/documentation/tree/main/English/OpenText)
-  - [Springboot](https://github.com/cool-guys-Inc/documentation/tree/main/English/Springboot)
-  - [Typescript](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript)
-    - [Angular](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/Angular)
-    - [NextJS](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/NextJS)
-    - [React](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/React)
-    - [States](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/States)
-    - [Svelte](https://github.com/cool-guys-Inc/documentation/tree/main/English/Typescript/Svelte)
+    - [Auth0](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/Auth0)
+    - [IAM (Identity and Access Management)](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/IAM-Identity-and-access-management)
+  - [Git](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Git)
+  - [Javascript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript)
+    - [AngularJS](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript/AngularJS)
+  - [OpenText](https://github.com/Matthiasbrat/learn-fast/tree/main/English/OpenText)
+  - [Springboot](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Springboot)
+  - [Typescript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript)
+    - [Angular](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/Angular)
+    - [NextJS](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/NextJS)
+    - [React](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/React)
+    - [States](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/States)
+    - [Svelte](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/Svelte)
 
 - **[Français](#français)**
-  - [Quarkus](https://github.com/cool-guys-Inc/documentation/tree/main/Français/Quarkus)
-  - [SSL](https://github.com/cool-guys-Inc/documentation/tree/main/Français/SSL)
+  - [Quarkus](https://github.com/Matthiasbrat/learn-fast/tree/main/Français/Quarkus)
+  - [SSL](https://github.com/Matthiasbrat/learn-fast/tree/main/Français/SSL)
 
 ## How to Contribute 🤝
 
