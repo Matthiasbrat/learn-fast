@@ -14,7 +14,6 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
   - [OpenText](https://github.com/Matthiasbrat/learn-fast/tree/main/English/OpenText)
   - [Springboot](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Springboot)
   - [Typescript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript)
-    - [Angular](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/Angular)
     - [NextJS](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/NextJS)
     - [React](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/React)
     - [States](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/States)
