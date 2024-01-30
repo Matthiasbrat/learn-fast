@@ -8,6 +8,7 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
   - [Authentication](#authentication)
     - [Auth0](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/Auth0)
     - [IAM (Identity and Access Management)](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/IAM-Identity-and-access-management)
+    - [JWT](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/JWT)
   - [Git](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Git)
   - [Javascript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript)
     - [AngularJS](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript/AngularJS)
