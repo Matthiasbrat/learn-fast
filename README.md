@@ -13,6 +13,7 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
     - [V8](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Compilers)
   - [DevOps](#devops)
     - [Hands on linux](https://github.com/Matthiasbrat/learn-fast/tree/main/English/DevOps/Hands-on-linux)
+    - [Kubernetes](https://github.com/Matthiasbrat/learn-kubernetes)
   - [Javascript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript)
     - [AngularJS](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript/AngularJS)
   - [OpenText](https://github.com/Matthiasbrat/learn-fast/tree/main/English/OpenText)
