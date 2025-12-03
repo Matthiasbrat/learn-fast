@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of technical tutorials and case studies covering authentication, DevOps, JavaScript frameworks, and more">
+    <title>Fast Learn - Technical Tutorials & Case Studies</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">Fast Learn</a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#tutorials" class="nav-link">Tutorials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Learn Fast, <span class="gradient-text">Build Better</span>
+                </h1>
+                <p class="hero-description">
+                    Explore condensed technical documentation and case studies covering modern web development,
+                    authentication, DevOps, and more. Accelerate your learning journey.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#tutorials" class="btn btn-primary">Explore Tutorials</a>
+                    <a href="https://github.com/Matthiasbrat/learn-fast" target="_blank" class="btn btn-secondary">
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About This Project</h2>
+                <p class="section-subtitle">
+                    A curated collection of technical tutorials and documentation
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="card-icon">📚</div>
+                    <h3>Comprehensive Coverage</h3>
+                    <p>From authentication systems to modern JavaScript frameworks, explore a wide range of topics</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Quick Reference</h3>
+                    <p>Condensed documentation designed for fast learning and easy reference</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Practical Focus</h3>
+                    <p>Real-world examples and case studies to accelerate your development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials Section -->
+    <section id="tutorials" class="tutorials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tutorials & Case Studies</h2>
+                <p class="section-subtitle">Browse by category or technology</p>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="authentication">Authentication</button>
+                <button class="filter-btn" data-category="devops">DevOps</button>
+                <button class="filter-btn" data-category="javascript">JavaScript/TypeScript</button>
+                <button class="filter-btn" data-category="backend">Backend</button>
+                <button class="filter-btn" data-category="other">Other</button>
+            </div>
+
+            <!-- Tutorials Grid -->
+            <div class="tutorials-grid" id="tutorialsGrid">
+                <!-- Authentication -->
+                <div class="tutorial-card" data-category="authentication">
+                    <div class="card-tag">Authentication</div>
+                    <h3 class="card-title">Auth0</h3>
+                    <p class="card-description">Complete guide to implementing Auth0 authentication in your applications</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/Auth0" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="authentication">
+                    <div class="card-tag">Authentication</div>
+                    <h3 class="card-title">IAM (Identity & Access Management)</h3>
+                    <p class="card-description">Understanding identity and access management systems and best practices</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/IAM-Identity-and-access-management" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="authentication">
+                    <div class="card-tag">Authentication</div>
+                    <h3 class="card-title">JWT (JSON Web Tokens)</h3>
+                    <p class="card-description">Deep dive into JWT implementation and security considerations</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/JWT" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <!-- DevOps -->
+                <div class="tutorial-card" data-category="devops">
+                    <div class="card-tag">DevOps</div>
+                    <h3 class="card-title">Hands-on Linux</h3>
+                    <p class="card-description">Practical Linux administration and command-line mastery</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/DevOps/Hands-on-linux" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="devops">
+                    <div class="card-tag">DevOps</div>
+                    <h3 class="card-title">Kubernetes</h3>
+                    <p class="card-description">Container orchestration with Kubernetes - from basics to advanced concepts</p>
+                    <a href="https://github.com/Matthiasbrat/learn-kubernetes" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="devops">
+                    <div class="card-tag">DevOps</div>
+                    <h3 class="card-title">Docker</h3>
+                    <p class="card-description">Containerization with Docker - comprehensive tutorial</p>
+                    <a href="https://splendid-spruce-087.notion.site/Docker-tutorial-34c3b139ae384b87826af772518dc563?pvs=4" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <!-- JavaScript/TypeScript -->
+                <div class="tutorial-card" data-category="javascript">
+                    <div class="card-tag">JavaScript</div>
+                    <h3 class="card-title">AngularJS</h3>
+                    <p class="card-description">Building dynamic web applications with AngularJS</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript/AngularJS" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="javascript">
+                    <div class="card-tag">TypeScript</div>
+                    <h3 class="card-title">React</h3>
+                    <p class="card-description">Modern React development with TypeScript</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/React" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="javascript">
+                    <div class="card-tag">TypeScript</div>
+                    <h3 class="card-title">Next.js</h3>
+                    <p class="card-description">Full-stack React framework for production applications</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/NextJS" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="javascript">
+                    <div class="card-tag">TypeScript</div>
+                    <h3 class="card-title">Svelte</h3>
+                    <p class="card-description">Building reactive web applications with Svelte</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/Svelte" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="javascript">
+                    <div class="card-tag">TypeScript</div>
+                    <h3 class="card-title">State Management</h3>
+                    <p class="card-description">Managing application state in modern web applications</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/States" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <!-- Backend -->
+                <div class="tutorial-card" data-category="backend">
+                    <div class="card-tag">Backend</div>
+                    <h3 class="card-title">Spring Boot</h3>
+                    <p class="card-description">Spring Boot for Quarkus developers - transitioning guide</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Springboot" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="backend">
+                    <div class="card-tag">Backend</div>
+                    <h3 class="card-title">Quarkus</h3>
+                    <p class="card-description">Supersonic Subatomic Java with Quarkus framework</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/Français/Quarkus" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <!-- Other -->
+                <div class="tutorial-card" data-category="other">
+                    <div class="card-tag">Compilers</div>
+                    <h3 class="card-title">V8 Engine</h3>
+                    <p class="card-description">Understanding JavaScript's V8 engine and optimization</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/Compilers" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="other">
+                    <div class="card-tag">Enterprise</div>
+                    <h3 class="card-title">OpenText</h3>
+                    <p class="card-description">Working with OpenText enterprise content management</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/English/OpenText" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+
+                <div class="tutorial-card" data-category="other">
+                    <div class="card-tag">Security</div>
+                    <h3 class="card-title">SSL/TLS</h3>
+                    <p class="card-description">SSL/TLS implementation and testing with SSL Labs</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/tree/main/Français/SSL" target="_blank" class="card-link">
+                        View Tutorial →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have questions or want to contribute?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Fork the repository and contribute</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast" target="_blank" class="contact-link">
+                        Visit Repository →
+                    </a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Contribute</h3>
+                    <p>Share your own tutorials and case studies</p>
+                    <a href="https://github.com/Matthiasbrat/learn-fast/pulls" target="_blank" class="contact-link">
+                        Submit PR →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Fast Learn. Share and explore technical documentation.</p>
+            <p class="footer-links">
+                <a href="https://github.com/Matthiasbrat/learn-fast" target="_blank">GitHub</a>
+                <span>•</span>
+                <a href="https://github.com/Matthiasbrat/learn-fast/blob/main/README.md" target="_blank">Documentation</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
