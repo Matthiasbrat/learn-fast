@@ -50,98 +50,98 @@ const elements = {
 // Tutorial data mapping
 const tutorialData = {
     'auth0': {
-        path: '../English/Authentication/Auth0/Basics.pdf',
+        path: 'English/Authentication/Auth0/Basics.pdf',
         title: 'Auth0 Authentication',
         category: 'Authentication',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/Auth0'
     },
     'iam': {
-        path: '../English/Authentication/IAM-Identity-and-access-management/Basics.pdf',
+        path: 'English/Authentication/IAM-Identity-and-access-management/Basics.pdf',
         title: 'IAM (Identity & Access Management)',
         category: 'Authentication',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/IAM-Identity-and-access-management'
     },
     'jwt': {
-        path: '../English/Authentication/JWT/Basics.pdf',
+        path: 'English/Authentication/JWT/Basics.pdf',
         title: 'JWT (JSON Web Tokens)',
         category: 'Authentication',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/JWT'
     },
     'linux': {
-        path: '../English/DevOps/Hands-on-linux/hands-on-linux.pdf',
+        path: 'English/DevOps/Hands-on-linux/hands-on-linux.pdf',
         title: 'Hands-on Linux',
         category: 'DevOps',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/DevOps/Hands-on-linux'
     },
     'angularjs': {
-        path: '../English/Javascript/AngularJS/Basics.pdf',
+        path: 'English/Javascript/AngularJS/Basics.pdf',
         title: 'AngularJS Basics',
         category: 'JavaScript',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript/AngularJS'
     },
     'javascript': {
-        path: '../English/Javascript/Basics.pdf',
+        path: 'English/Javascript/Basics.pdf',
         title: 'JavaScript Basics',
         category: 'JavaScript',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript'
     },
     'opentext': {
-        path: '../English/OpenText/Basics.pdf',
+        path: 'English/OpenText/Basics.pdf',
         title: 'OpenText',
         category: 'Enterprise',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/OpenText'
     },
     'springboot': {
-        path: '../English/Springboot/Springboot-for-quarkus-devs.pdf',
+        path: 'English/Springboot/Springboot-for-quarkus-devs.pdf',
         title: 'Spring Boot for Quarkus Developers',
         category: 'Backend',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Springboot',
-        mdPath: '../English/Springboot/Springboot-for-quarkus-devs.md'
+        mdPath: 'English/Springboot/Springboot-for-quarkus-devs.md'
     },
     'typescript': {
-        path: '../English/Typescript/Basics.pdf',
+        path: 'English/Typescript/Basics.pdf',
         title: 'TypeScript Basics',
         category: 'TypeScript',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript'
     },
     'nextjs': {
-        path: '../English/Typescript/NextJS/NextJS.pdf',
+        path: 'English/Typescript/NextJS/NextJS.pdf',
         title: 'Next.js',
         category: 'TypeScript',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/NextJS'
     },
     'react': {
-        path: '../English/Typescript/React/React.pdf',
+        path: 'English/Typescript/React/React.pdf',
         title: 'React',
         category: 'TypeScript',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/React'
     },
     'states': {
-        path: '../English/Typescript/States/States.pdf',
+        path: 'English/Typescript/States/States.pdf',
         title: 'State Management',
         category: 'TypeScript',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/States'
     },
     'svelte': {
-        path: '../English/Typescript/Svelte/Basics.pdf',
+        path: 'English/Typescript/Svelte/Basics.pdf',
         title: 'Svelte',
         category: 'TypeScript',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/Svelte'
     },
     'v8': {
-        path: '../English/Compilers/V8.pdf',
+        path: 'English/Compilers/V8.pdf',
         title: 'V8 JavaScript Engine',
         category: 'Compilers',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/English/Compilers'
     },
     'quarkus': {
-        path: '../Français/Quarkus/Bases.pdf',
+        path: 'Français/Quarkus/Bases.pdf',
         title: 'Quarkus (Français)',
         category: 'Backend',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/Français/Quarkus'
     },
     'ssl': {
-        path: '../Français/SSL/SSL-LAB.md',
+        path: 'Français/SSL/SSL-LAB.md',
         title: 'SSL/TLS Lab (Français)',
         category: 'Security',
         github: 'https://github.com/Matthiasbrat/learn-fast/tree/main/Français/SSL'
