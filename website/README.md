@@ -1,25 +1,33 @@
 # Fast Learn Portfolio Website
 
-A modern, responsive portfolio website to showcase technical tutorials and case studies.
+A modern, responsive portfolio website to showcase technical tutorials and case studies with integrated PDF and Markdown viewers.
 
 ## Features
 
 - **Modern Design**: Clean, professional interface with gradient accents and smooth animations
 - **Responsive Layout**: Fully responsive design that works on all devices
 - **Category Filtering**: Filter tutorials by category (Authentication, DevOps, JavaScript/TypeScript, Backend, Other)
+- **Integrated Viewer**: View tutorials directly on the website
+  - **PDF Viewer**: Built-in PDF rendering with zoom and page navigation
+  - **Markdown Viewer**: Beautiful markdown rendering with syntax highlighting
+  - **PDF-to-Markdown Conversion**: Toggle to convert PDF content to readable markdown format
+  - **Dual View Mode**: Switch between original PDF and converted markdown views
 - **Smooth Navigation**: Smooth scrolling and intuitive navigation
-- **Mobile-Friendly**: Optimized hamburger menu for mobile devices
+- **Mobile-Friendly**: Optimized hamburger menu for mobile devices and responsive viewer
 - **Fast Loading**: Lightweight static site with optimized assets
 
 ## Structure
 
 ```
 website/
-├── index.html          # Main HTML file
+├── index.html          # Main landing page
+├── viewer.html         # Tutorial viewer page
 ├── css/
-│   └── styles.css      # All styling
+│   ├── styles.css      # Main styling
+│   └── viewer.css      # Viewer-specific styling
 ├── js/
-│   └── main.js         # JavaScript for interactivity
+│   ├── main.js         # Landing page interactivity
+│   └── viewer.js       # Viewer functionality (PDF, markdown, conversion)
 └── assets/             # Images and other assets (if needed)
 ```
 
@@ -97,8 +105,33 @@ Modify CSS variables in `css/styles.css`:
 
 - **HTML5**: Semantic markup
 - **CSS3**: Modern styling with CSS Grid and Flexbox
-- **Vanilla JavaScript**: No frameworks, pure JS for interactivity
+- **Vanilla JavaScript**: Core interactivity and viewer logic
+- **PDF.js**: Mozilla's PDF rendering library for displaying PDFs
+- **Marked.js**: Fast markdown parser and compiler
+- **Highlight.js**: Syntax highlighting for code blocks in markdown
 - **Google Fonts**: Inter font family for clean typography
+
+## Tutorial Viewer
+
+The integrated viewer provides a seamless reading experience:
+
+### For PDF Tutorials
+- View PDFs directly in the browser
+- Navigate through pages with next/previous buttons
+- Zoom in/out for better readability
+- Toggle to convert PDF text to markdown format for easier reading
+- Download original PDF
+
+### For Markdown Tutorials
+- Beautiful rendering with proper typography
+- Syntax-highlighted code blocks
+- Responsive tables and images
+- GitHub-flavored markdown support
+
+### View Switching
+- Click "Markdown" toggle to convert PDF to readable markdown
+- Toggle back to "Original" to view the source PDF
+- Conversion extracts text and formats it with proper headings and structure
 
 ## Browser Support
 
