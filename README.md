@@ -4,29 +4,30 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
 
 ## Repository Structure 📂
 
-- **[English](#english)**
-  - [Authentication](#authentication)
-    - [Auth0](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/Auth0)
-    - [IAM (Identity and Access Management)](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/IAM-Identity-and-access-management)
-    - [JWT](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication/JWT)
-  - [Compilers](#compilers)
-    - [V8](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Compilers)
-  - [DevOps](#devops)
-    - [Hands on linux](https://github.com/Matthiasbrat/learn-fast/tree/main/English/DevOps/Hands-on-linux)
+- **[English](./English)**
+  - [Authentication](./English/Authentication)
+    - [Auth0](./English/Authentication/Auth0.pdf)
+    - [IAM (Identity and Access Management)](./English/Authentication/IAM-Identity-and-access-management.pdf)
+    - [JWT](./English/Authentication/JWT.pdf)
+  - [Compilers](./English/Compilers)
+    - [V8](./English/Compilers/V8.pdf)
+  - [DevOps](./English/DevOps)
+    - [Hands on linux](./English/DevOps/Hands-on-linux.pdf)
     - [Kubernetes](https://github.com/Matthiasbrat/learn-kubernetes)
-  - [Javascript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript)
-    - [AngularJS](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript/AngularJS)
-  - [OpenText](https://github.com/Matthiasbrat/learn-fast/tree/main/English/OpenText)
-  - [Springboot](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Springboot)
-  - [Typescript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript)
-    - [NextJS](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/NextJS)
-    - [React](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/React)
-    - [States](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/States)
-    - [Svelte](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript/Svelte)
+    - [Prometheus](./English/DevOps/Prometheus.pdf)
+  - [Javascript](./English/Javascript)
+    - [AngularJS](./English/Javascript/AngularJS.pdf)
+  - [OpenText](./English/OpenText.pdf)
+  - [Springboot for Quarkus devs](./English/Springboot-for-quarkus-devs.pdf)
+  - [Typescript](./English/Typescript)
+    - [NextJS](./English/Typescript/NextJS.pdf)
+    - [React](./English/Typescript/React.pdf)
+    - [States](./English/Typescript/States.pdf)
+    - [Svelte](./English/Typescript/Svelte.pdf)
 
-- **[Français](#français)**
-  - [Quarkus](https://github.com/Matthiasbrat/learn-fast/tree/main/Français/Quarkus)
-  - [SSL](https://github.com/Matthiasbrat/learn-fast/tree/main/Français/SSL)
+- **[Français](./Fran%C3%A7ais)**
+  - [Quarkus](./Fran%C3%A7ais/Quarkus.pdf)
+  - [SSL](./Fran%C3%A7ais/SSL.md)
   - [Docker](https://splendid-spruce-087.notion.site/Docker-tutorial-34c3b139ae384b87826af772518dc563?pvs=4)
 
 ## How to Contribute 🤝
