@@ -4,29 +4,29 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
 
 ## Repository Structure 📂
 
-- **[English](#english)**
-  - [Authentication](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Authentication)
-    - [Auth0](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Authentication/Auth0.pdf)
-    - [IAM (Identity and Access Management)](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Authentication/IAM-Identity-and-access-management.pdf)
-    - [JWT](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Authentication/JWT.pdf)
-  - [Compilers](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Compilers)
-    - [V8](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Compilers/V8.pdf)
-  - [DevOps](https://github.com/Matthiasbrat/learn-fast/tree/main/English/DevOps)
-    - [Hands on linux](https://github.com/Matthiasbrat/learn-fast/blob/main/English/DevOps/Hands-on-linux.pdf)
+- **[English](./English)**
+  - [Authentication](./English/Authentication)
+    - [Auth0](./English/Authentication/Auth0.pdf)
+    - [IAM (Identity and Access Management)](./English/Authentication/IAM-Identity-and-access-management.pdf)
+    - [JWT](./English/Authentication/JWT.pdf)
+  - [Compilers](./English/Compilers)
+    - [V8](./English/Compilers/V8.pdf)
+  - [DevOps](./English/DevOps)
+    - [Hands on linux](./English/DevOps/Hands-on-linux.pdf)
     - [Kubernetes](https://github.com/Matthiasbrat/learn-kubernetes)
-  - [Javascript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Javascript)
-    - [AngularJS](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Javascript/AngularJS.pdf)
-  - [OpenText](https://github.com/Matthiasbrat/learn-fast/blob/main/English/OpenText.pdf)
-  - [Springboot for Quarkus devs](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Springboot-for-quarkus-devs.pdf)
-  - [Typescript](https://github.com/Matthiasbrat/learn-fast/tree/main/English/Typescript)
-    - [NextJS](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Typescript/NextJS.pdf)
-    - [React](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Typescript/React.pdf)
-    - [States](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Typescript/States.pdf)
-    - [Svelte](https://github.com/Matthiasbrat/learn-fast/blob/main/English/Typescript/Svelte.pdf)
+  - [Javascript](./English/Javascript)
+    - [AngularJS](./English/Javascript/AngularJS.pdf)
+  - [OpenText](./English/OpenText.pdf)
+  - [Springboot for Quarkus devs](./English/Springboot-for-quarkus-devs.pdf)
+  - [Typescript](./English/Typescript)
+    - [NextJS](./English/Typescript/NextJS.pdf)
+    - [React](./English/Typescript/React.pdf)
+    - [States](./English/Typescript/States.pdf)
+    - [Svelte](./English/Typescript/Svelte.pdf)
 
-- **[Français](#français)**
-  - [Quarkus](https://github.com/Matthiasbrat/learn-fast/blob/main/Fran%C3%A7ais/Quarkus.pdf)
-  - [SSL](https://github.com/Matthiasbrat/learn-fast/blob/main/Fran%C3%A7ais/SSL.md)
+- **[Français](./Fran%C3%A7ais)**
+  - [Quarkus](./Fran%C3%A7ais/Quarkus.pdf)
+  - [SSL](./Fran%C3%A7ais/SSL.md)
   - [Docker](https://splendid-spruce-087.notion.site/Docker-tutorial-34c3b139ae384b87826af772518dc563?pvs=4)
 
 ## How to Contribute 🤝
