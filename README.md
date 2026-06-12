@@ -14,6 +14,7 @@ Welcome to the Fast Learn Repository! 📚✨ Share and explore condensed, self-
   - [DevOps](./English/DevOps)
     - [Hands on linux](./English/DevOps/Hands-on-linux.pdf)
     - [Kubernetes](https://github.com/Matthiasbrat/learn-kubernetes)
+    - [Prometheus](./English/DevOps/Prometheus.pdf)
   - [Javascript](./English/Javascript)
     - [AngularJS](./English/Javascript/AngularJS.pdf)
   - [OpenText](./English/OpenText.pdf)
